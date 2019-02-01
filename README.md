@@ -2,8 +2,8 @@ Copy to /etc/init.d
 chmod +x /etc/init.d/test
 Add any commands in the "start" function or "stop" function.
 
-update-rc.d test defaults
-update-rc.d test enable
+sudo update-rc.d test defaults
+sudo update-rc.d test enable
 
 Create an AMI image with this initi script.
 
